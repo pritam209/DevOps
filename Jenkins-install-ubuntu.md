@@ -45,3 +45,5 @@ sudo systemctl enable jenkins
 sudo systemctl status jenkins
 ```
 
+Note: Make sure to enable inbound rules in security - PORT 8080
+
