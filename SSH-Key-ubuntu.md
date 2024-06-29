@@ -10,7 +10,13 @@ ssh-keygen -t rsa
 
 - Step 2: Add your generated public key into authorized_keys file, inside SSH Folder of Ubuntu
 
+Note: edit authorized_keys file - ( copy & paste your public key)
+
 ```
-cd ~/.ssh
-vim authorized_keys # edit this file - ( copy & paste your public key)
+cd ~/.ssh 
 ```
+
+```
+vim authorized_keys 
+```
+
