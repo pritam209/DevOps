@@ -14,6 +14,6 @@ Note: edit authorized_keys file - ( copy & paste your public key)
 
 ```bash
 cd ~/.ssh
-vim authorized_keys # edit this file - ( copy & paste your public key)
+vim authorized_keys 
 ```
 
