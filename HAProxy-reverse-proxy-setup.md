@@ -19,7 +19,7 @@ frontend http_front
 
 backend express_backend
     balance roundrobin
-    server express_server 127.0.0.1:3000 check
+    server express_server ip:port check
 ```
 
-This config will serve on PORT 80, running on 3000
+This config will serve on PORT 80, running on port e.g.3000

@@ -36,7 +36,7 @@ server {
         alias /home/ubuntu/my-app/build;
     }
 
-    # express app with port(but always use production ready [build folder])
+    # react app with port(but always use production ready [build folder])
     location / {
         # dummy proxy_pass
         # localhost and port on which app is running

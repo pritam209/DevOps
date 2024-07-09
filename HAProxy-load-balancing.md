@@ -20,9 +20,9 @@ frontend http_front
 backend express_backend
     balance roundrobin
     # server 1: you server(prefered provide localhost ip)
-    server express_server1 127.0.0.1:3000 check
+    server express_server1 ip:port check
     # sever 2: 
-    server express_server2 43.205.233.137:80 check
+    server express_server2 ip:port check
     # sever 3: 
-    server express_server3 59.205.233.786:80 check
+    server express_server3 ip:port check
 ```

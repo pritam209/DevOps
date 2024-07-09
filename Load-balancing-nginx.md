@@ -13,8 +13,8 @@ http{
     upstream demo {
     server 7.36.540.1;
     server 7.36.540.1;
-    # prefered if your system use localhost
-    server 127.0.0.1:3000;
+    # prefered to use localhost if load balacing in same server
+    server localhost_ip:port;
     }
 }
 ```
